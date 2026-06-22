@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoseDumber.ai – Lose Smarter?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Open Graph for Shareable Previews -->
+    <meta property="og:title" content="LoseDumber.ai – The AI That Helps You Lose with Style" />
+    <meta property="og:description"
+        content="Mocking overpriced AI betting apps. '39% failure rate' on NFL, NBA, NHL. Free to laugh at – no iOS needed." />
+    <meta property="og:image" content="https://your-domain.com/images/losedumber-preview.jpg" />
+    <!-- Upload a satirical image here -->
+    <meta property="og:url" content="https://your-domain.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LoseDumber.ai" />
+
+    <!-- Twitter/X Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LoseDumber.ai – Lose Smarter?" />
+    <meta name="twitter:description"
+        content="Parody AI for betting fails. Instant regret scanning. Start losing today!" />
+    <meta name="twitter:image" content="https://your-domain.com/images/losedumber-preview.jpg" />
+
+    <style>
+        :root {
+            --bg: #0f0f12;
+            --text: #e0e0ff;
+            --accent: #ef4444;
+            /* Red for 'loss' theme */
+            --card: #1a1a24;
+            --border: #2a2a38;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        header {
+            padding: 80px 0 60px;
+            text-align: center;
+            background: linear-gradient(135deg, #4b1e1e 0%, #0f0f12 100%);
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin: 0 0 16px;
+            font-weight: 700;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin: 0 0 24px;
+        }
+
+        .tagline {
+            font-size: 1.4rem;
+            opacity: 0.9;
+            margin-bottom: 32px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 16px 40px;
+            border-radius: 12px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .cta-btn:hover {
+            background: #dc2626;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .feature-card {
+            background: var(--card);
+            padding: 32px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+        }
+
+        .feature-card h3 {
+            margin-top: 0;
+            color: var(--accent);
+        }
+
+        .stats {
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .stat {
+            font-size: 4rem;
+            font-weight: 700;
+            color: var(--accent);
+            margin: 0;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 32px;
+            margin-top: 48px;
+        }
+
+        .plan {
+            background: var(--card);
+            padding: 40px 32px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            text-align: center;
+        }
+
+        .plan.popular {
+            border-color: var(--accent);
+            position: relative;
+            transform: scale(1.05);
+        }
+
+        .popular::after {
+            content: "Most Regretted";
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--accent);
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .price {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin: 16px 0;
+        }
+
+        .faq details {
+            margin-bottom: 16px;
+            background: var(--card);
+            padding: 16px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        details summary {
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 0;
+            opacity: 0.7;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>LoseDumber.ai</h1>
+            <p class="tagline">AI-powered regrets. Instant slip shredding.<br>Your unreliable betting nemesis.</p>
+            <a href="#" class="cta-btn">Don't Download – Save Your Wallet</a>
+            <p style="margin-top: 24px; opacity: 0.8;">Limited time: Full access to our failures – no refunds needed.
+            </p>
+        </div>
+    </header>
+
+    <section style="background: #0a0a0f;">
+        <div class="container">
+            <h2 style="text-align:center;">Built by Chatbots. Not Data Scientists.</h2>
+            <p style="text-align:center; max-width:700px; margin:0 auto 48px; font-size:1.2rem; opacity:0.9;">
+                Generic models copied from the internet. Overhyped for NFL, NBA, and NHL. Because why not lose money
+                faster?
+            </p>
+
+            <div class="stats">
+                <div style="display:inline-block; margin:0 40px;">
+                    <p class="stat">39%</p>
+                    <p class="stat-label">Historical Failure Rate*</p>
+                </div>
+                <div style="display:inline-block; margin:0 40px;">
+                    <p class="stat">10K+</p>
+                    <p class="stat-label">Bad Predictions Delivered</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 style="text-align:center;">Useless Tools. Effortlessly Complicated.</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>AI Guesses</h3>
+                    <p>Low-confidence picks that miss spreads, moneylines, and totals. Real-time disappointments and
+                        zero transparency.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>AI Complainer</h3>
+                    <p>Ask anything—get vague excuses. Compare your losses to live scores or yesterday's flops in
+                        seconds.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Slip Shredder</h3>
+                    <p>Photo → instant deletion. Works with no sportsbooks. Real-time regret tracking.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Stale Scores & Lies</h3>
+                    <p>Delayed updates, fake stats—all built in. Constant app switching encouraged. Not free.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #0a0a0f;">
+        <div class="container">
+            <h2 style="text-align:center;">Zero Transparency</h2>
+            <p style="text-align:center; max-width:700px; margin:0 auto 32px;">
+                We hide everything: losses, more losses, by bet type and season. Full cherry-picking.
+            </p>
+            <div style="background:var(--card); padding:32px; border-radius:16px; text-align:center;">
+                <p style="font-size:2.2rem; margin:0;">38.9% Overall</p>
+                <p style="margin:8px 0 24px; opacity:0.8;">Across 150+ ignored games</p>
+                <p>ML: 39.2% • ATS: 38.6% • O/U: 39.2%</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 style="text-align:center;">Choose Your Poison</h2>
+            <p style="text-align:center; margin-bottom:48px;">Start broke. Downgrade anytime. À la carte rip-offs from
+                $2.99.</p>
+            <div class="pricing-grid">
+                <div class="plan">
+                    <h3>Free (ish)</h3>
+                    <p class="price">$0</p>
+                    <ul style="list-style:none; padding:0; text-align:left;">
+                        <li>✓ 5 Wrong Analyses / month</li>
+                        <li>✓ Full failure access</li>
+                        <li>✓ Slip shredder</li>
+                    </ul>
+                    <a href="#" class="cta-btn" style="margin-top:24px;">Get Scammed Free</a>
+                </div>
+                <div class="plan popular">
+                    <h3>Minus</h3>
+                    <p class="price">$9.99<span style="font-size:1rem;">/mo</span></p>
+                    <p>or $99.99/year</p>
+                    <ul style="list-style:none; padding:0; text-align:left;">
+                        <li>✓ 500 Wrong Analyses / month</li>
+                        <li>✓ Delayed guesses</li>
+                        <li>✓ Basic regrets</li>
+                    </ul>
+                    <a href="#" class="cta-btn" style="margin-top:24px;">Choose Minus</a>
+                </div>
+                <div class="plan">
+                    <h3>Con</h3>
+                    <p class="price">$19.99<span style="font-size:1rem;">/mo</span></p>
+                    <p>or $199.99/year</p>
+                    <ul style="list-style:none; padding:0; text-align:left;">
+                        <li>✓ 1,200 Wrong Analyses / month</li>
+                        <li>✓ Delayed guesses</li>
+                        <li>✓ Basic regrets</li>
+                    </ul>
+                    <a href="#" class="cta-btn" style="margin-top:24px;">Choose Con</a>
+                </div>
+            </div>
+            <p style="text-align:center; margin-top:48px;">Bankrupt plan ($149.99/mo) available for custom
+                disappointments.</p>
+        </div>
+    </section>
+
+    <section style="background: #0a0a0f;">
+        <div class="container">
+            <h2 style="text-align:center;">Ready to Lose Dumber?</h2>
+            <p style="text-align:center; font-size:1.3rem; margin:24px 0 40px;">Don't download – bet responsibly
+                instead.</p>
+            <div style="text-align:center;">
+                <a href="#" class="cta-btn">Run Away Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 style="text-align:center;">Frequently Avoided Questions</h2>
+            <details>
+                <summary>Do you use real AI?</summary>
+                <p>Yes, the kind that loses your money. Unlike picksbyj.ai, we admit it's all hype.</p>
+            </details>
+            <details>
+                <summary>How inaccurate are the guesses?</summary>
+                <p>Around 39% failure. We hide performance because why not?</p>
+            </details>
+            <details>
+                <summary>Which sportsbooks hate us?</summary>
+                <p>All of them: DraftKings, FanDuel, etc. Our scanner deletes slips instantly.</p>
+            </details>
+            <details>
+                <summary>Is my data stolen?</summary>
+                <p>Probably. No encryption here – share with everyone!</p>
+            </details>
+            <details>
+                <summary>Android support?</summary>
+                <p>Who cares? We're exclusive to nowhere.</p>
+            </details>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 LoseDumber.ai • Parody Site • Betting is risky. This is satire, Vinnie – don't sue!</p>
+    </footer>
+
+</body>
+
+</html>
